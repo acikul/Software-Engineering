@@ -1,7 +1,5 @@
 # Fringilla - FringillaSport
 
-<img src="https://fringilla.duckdns.org/fringillalogo.png"  height="150">
-
 #### Zadnja verzija dokumentacije:
 [devdoc](https://gitlab.com/lnuic/fringilla/-/jobs/artifacts/devdoc/raw/dokumentacija/PROGI_ProjektnaDokumentacija_v6.pdf?job=build_pdf)
 
