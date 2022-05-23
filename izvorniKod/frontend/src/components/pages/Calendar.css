@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#calendar{
+    width: 80%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+#titleC{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#event-info{
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#active-event-info{
+    text-align: left;
+    margin: 1% auto;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid lightgray;
+	box-shadow: 2px 4px 4px lightgray;
+    background-color: white;
+    width: 99.5%;
+    border-radius: 5px;
+}
+
+#active-event-info h3{
+    padding-bottom: 0.7%;
+    padding-left: 0.5%;
+}
+
+#event-info h3{
+    padding-bottom: 0.5%;
+    padding-left: 0.5%;
+}
+
+#info-title{
+    text-align: center;
+    padding-left: 0%;
+    margin-top: 0.5%;
+}
+
+#active-event-info h3 a{
+    color: #2FFE0E;
+}
+
+#active-event-info h3 a:hover{
+    color: #21b40a;
+    cursor: pointer;
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.map-view {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.leaflet-container {
+    margin: auto;
+    height: 400px;
+    width: 80%;
+}
+
+.event-filter {
+    margin:auto;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.event-list {
+    overflow-y: scroll;
+    height: 400px;
+    margin: auto;
+    width: 95%;
+}
+
+.event-list>div {
+    background: rgb(210,210,210,0.7);
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.sport-event-box {
+    display: flex;
+}
+
+.sport-event-box>div{
+    width:300px;
+}
+
+.sport-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.selected-sport-icon {
+    width: 175px;
+    height: 175px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.selected-sport-event-box {
+    margin: auto;
+    width: 80%;
+    background: #2FFE0E;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 20px; 
+}
+
+.event-register {
+    margin-left: auto;
+    text-align: center;
+    width: 20%;
+}
+
+.register-button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.recommend-button:hover {
+    color: #2FFE0E;
+    cursor: pointer;
+}
+  

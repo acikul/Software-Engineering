@@ -1,0 +1,16 @@
+.organised-title {
+    text-align: center;
+}
+
+.event-approval {
+    text-align: right;
+}
+
+.approved-event {
+    color:green
+}
+
+.unapproved-event {
+    color:red
+}
+

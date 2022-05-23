@@ -1,0 +1,17 @@
+.sr-only {
+    display: none;
+}
+
+.location-form {
+    margin:auto;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.submit-button:hover {
+    color: #2FFE0E;
+    cursor: pointer;
+}
+  

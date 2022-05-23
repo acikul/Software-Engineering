@@ -1,0 +1,10 @@
+.text-button:hover {
+    color: #2FFE0E;
+    cursor: pointer;
+}
+
+.location-options {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}

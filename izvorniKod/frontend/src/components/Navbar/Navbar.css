@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.logo{
+  font-family: 'Cantarell', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 40px;
+  margin-right: 30%;
+}
+
+.nav-container-black {
+  background-color: #121212;
+  color: #d9d9d9;
+}
+
+.nav-container-black > nav > a{
+  color: #d9d9d9;
+  
+}
+
+.nav-container-black > nav > ul > li > a{
+  color: #d9d9d9;
+  
+}
+
+.nav-container-black > nav > ul > li > .prijava{
+  background-color: #FE560E;
+  color: #d9d9d9;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  min-height: 10vh;
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  list-style: none;
+}
+
+nav ul li{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+
+.prijava{
+  background-color: #2FFE0E;
+  padding: 0.3125rem 0.625rem;
+  border-radius: 8px;
+  color: white;
+}
+
+.prijava-dark{
+  background-color: #FE560E;
+  padding: 0.3125rem 0.625rem;
+  border-radius: 8px;
+}
+
+.prijava-dark:hover{
+  color: black;
+}
+
+.menu-icon, .menu-icon-dark{
+  display: none;
+}
+
+
+.nav-container .naslovnica:hover, .nav-container .kontakt:hover, .nav-container .ofringilli:hover, .nav-container .podaci:hover{
+  color: #2FFE0E
+}
+
+.nav-container-black .naslovnica:hover, .nav-container-black .kontakt:hover, .nav-container-black .ofringilli:hover, .nav-container-black .podaci:hover{
+  color: #FE560E
+}
+
+.prijava:hover{
+  color: black;
+}
+
+@media screen and (max-width: 1040px){
+
+    nav{
+      width: 100%;
+    }
+
+    .nav-menu, .nav-menu-dark{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 89px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+
+    .nav-menu.active {
+      background: white;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+
+    .nav-menu-dark.active {
+      background: #121212;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+
+    .naslovnica{
+      border-top: 1px solid black;
+    }
+
+    .naslovnica, .ofringilli, .kontakt, .prijava .podaci{
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+      border-bottom: 1px solid black;
+    }
+
+    .prijava{
+      background-color: transparent;
+      color: black;
+      border-radius: 0;
+    }
+
+    .prijava:hover{
+      color: #2FFE0E;
+    }
+
+    .prijava-dark{
+      background-color: transparent;
+      color: black;
+      border-radius: 0;
+    }
+
+    .prijava-dark:hover{
+      color: #FE560E;
+    }
+
+    .menu-icon{
+      display: block;
+      font-size: 1.8rem;
+      cursor: pointer;
+      margin-right: 5%;
+    }
+
+    .menu-icon-dark{
+      display: block;
+      font-size: 1.8rem;
+      cursor: pointer;
+      margin-right: 5%;
+      color: white;
+    }
+
+    .logo{
+      margin-left: 5%;
+    }
+}

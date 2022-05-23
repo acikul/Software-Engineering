@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.showcase{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 15vh auto -10% auto;
+    min-height: 70vh;
+}
+
+.title{
+    margin-top: 5%;
+}
+
+.showcase .text-div{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.showcase .text-div-dark{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    opacity: 95%;
+}
+
+.showcase .text-div-dark .title{
+    color: #FE560E;
+}
+
+.title{
+    color: #2FFE0E;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.subtext{
+    font-size: 30px;
+}
+
+
+.subtext2{
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.button {
+  background: none;
+  border: 3px solid #2FFE0E;
+  font: inherit;
+  line-height: 1;
+  padding: 1em 2em;
+  font-weight: 900;
+  font-size: 20px;
+  box-shadow: inset 0px 0px 0px #2FFE0E;
+  transition: 0.5s;
+}
+
+.button:hover{
+    box-shadow: inset 0px -80px 0px #2FFE0E;
+    color: white;
+}
+
+.button:active{
+    border-color: transparent;
+}
+
+.button-dark {
+  background: none;
+  color: white;
+  border: 3px solid #FE560E;
+  font: inherit;
+  line-height: 1;
+  padding: 1em 2em;
+  font-weight: 900;
+  font-size: 20px;
+  box-shadow: inset 0px 0px 0px #FE560E;
+  transition: all 0.5s;
+}
+
+.button-dark:hover{
+    box-shadow: inset 0px -80px 0px #FE560E;
+    color: white;
+}
+
+.button-dark:active{
+    border-color: transparent;
+}
+
+
+.goalImg{
+    width: 500px;
+    height: 300px;
+}
+
+.advertising{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    opacity: 90%;
+}
+
+
+
+@media screen and (max-width: 1020px){
+
+    .goalImg{
+        display: none;
+    }
+
+    .showcase{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .advertising{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    
+
+    .button{
+        display: block;
+        text-align: center;
+    }
+
+}
+
+
+
+.card, .card-dark{
+    position: relative;
+}
+
+.card .face, .card-dark .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.card .face.face1, .card-dark .face.face1{
+    position: relative;
+    background: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+
+.card:hover .face.face1{
+    background-color: #2FFE0E;
+    transform: translateY(0px);
+}
+
+.card-dark:hover .face.face1{
+    background-color: #FE560E;
+    transform: translateY(0px);
+}
+
+.card .face .content img, .card-dark .face .content img{
+    width: 200px;
+    height: 100px;
+}
+
+.card .face.face1 .content, .card-dark .face.face1 .content{
+    opacity: 0.8;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.card:hover .face.face1 .content, .card-dark:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.card:hover .face.face1 .content img, .card-dark:hover .face.face1 .content img{
+    max-width: 200px;
+}
+
+
+.card .face.face2, .card-dark .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+    transform: translateY(-100px);
+}
+
+.card:hover .face.face2, .card-dark:hover .face.face2{
+    transform: translateY(0);
+}
+
+.card .face .face2 .content p, .card-dark .face .face2 .content p{
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+

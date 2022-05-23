@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navb{
+  display: grid;
+  grid-template-columns: 30fr 1fr;
+}
+
+.toggler, .toggler-dark{
+  height: fit-content;
+  width: fit-content;
+  margin-left: -8rem;
+  margin-top: 2.15rem;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.toggler{
+	color: #2FFE0E
+}
+
+.toggler-dark{
+  color: #FE560E;
+}
+
+
+.dark{
+  background-color: #121212;
+}
+
+@media screen and (max-width: 1250px){
+	.toggler, .toggler-dark{
+		display: none;
+	}
+}
+
+
